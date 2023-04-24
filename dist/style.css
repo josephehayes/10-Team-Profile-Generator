@@ -1,0 +1,10 @@
+header {
+    color: white;
+    background-color: rgb(34, 255, 207);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin: 10px;
+    padding: 10px;
+}
