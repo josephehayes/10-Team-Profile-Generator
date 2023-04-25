@@ -1,4 +1,4 @@
-import Engineer from '../lib/Engineer';
+const Engineer = require('../lib/Engineer');
 const engineer = new Engineer('Joey', '8675309', 'jhtest@gmail.com', 'josephehayes');
 
 test('get constructor values for Engineer object', () => {

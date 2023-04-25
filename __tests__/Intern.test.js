@@ -1,8 +1,8 @@
-import Intern from '../lib/Intern';
+const Intern = require('../lib/Intern');
 const intern = new Intern('Joey', '8675309', 'jhtest@gmail.com', 'UofU');
 
 test('get constructor values for intern object', () => {
-    expect(intern.name).toBe('Joey ');
+    expect(intern.name).toBe('Joey');
     expect(intern.id).toBe('8675309');
     expect(intern.email).toBe('jhtest@gmail.com');
     expect(intern.school).toBe('UofU');

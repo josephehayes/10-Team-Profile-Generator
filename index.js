@@ -1,9 +1,9 @@
-import generateHTML from './src/genHTML';
-import Engineer from './lib/Engineer';
-import Manager from './lib/Manager';
-import Intern from './lib/Intern';
-import inquirer from 'inquirer';
-import fs from 'fs';
+const generateHTML = require('./src/genHTML');
+const Engineer = require('./lib/Engineer');
+const Manager = require('./lib/Manager');
+const Intern = require('./lib/Intern');
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 const teamArr = [];
 
